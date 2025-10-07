@@ -2,3 +2,18 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --page-bg-image: url("/images/cover-image-dark.png");
+  --main-color: #ff0070;
+  --text-color: #f1b2ce;
+  --title-color: #000028;
+  --second-title-color: #000028;
+  --title-section-color: #db00ff;
+  --second-color: #ff0070;
+  --rec-visible: block;
+  --main-font-size: 18px;
+  --padding-inline: 10px;
+  --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header-min-height: 668px;
+  --footer-title-font-size: 116px;
+}
