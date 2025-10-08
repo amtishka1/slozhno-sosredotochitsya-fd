@@ -3,7 +3,8 @@
   и их переопределение под различные устройства
 */
 :root {
-  --page-bg-image: url("/images/cover-image-dark.png");
+  --page-bg-image: url("./images/cover-image-dark.png");
+  --text-font-family: "IBM Plex Mono", sans-serif;
   --main-color: #ff0070;
   --text-color: #f1b2ce;
   --title-color: #000028;
@@ -15,5 +16,20 @@
   --padding-inline: 10px;
   --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --header-min-height: 668px;
-  --footer-title-font-size: 116px;
+  --footer-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+}
+
+@media (width >= 768px) {
+  :root {
+    --padding-inline: 20px;
+    --header-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --header-min-height: 1024px;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --header-min-height: 768px;
+    
+  }
 }
