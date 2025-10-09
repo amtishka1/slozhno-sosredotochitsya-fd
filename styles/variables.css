@@ -2,8 +2,9 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
 :root {
-  --page-bg-image: url("./images/cover-image-dark.png");
+  --page-bg-image: url("../images/cover-image-dark.png");
   --text-font-family: "IBM Plex Mono", sans-serif;
   --main-color: #ff0070;
   --text-color: #f1b2ce;
@@ -22,7 +23,6 @@
 @media (width >= 768px) {
   :root {
     --padding-inline: 20px;
-    --header-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --header-min-height: 1024px;
   }
 }
@@ -30,6 +30,6 @@
 @media (width >= 1024px) {
   :root {
     --header-min-height: 768px;
-    
+    --header-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }

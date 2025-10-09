@@ -236,7 +236,7 @@ h4.article__header {
   }
 
   .section__header {
-    flex: 0 0 30vw;
+    flex: 0 0 32.5%;
   }
 
   .section-middle {
@@ -289,10 +289,6 @@ h4.article__header {
     width: 47vw;
   }
 
-  .section-border .section__header {
-    flex: 0 0 30vw;
-  }
-
   .section-middle .section__header {
     width: 315px;
   }
@@ -303,7 +299,7 @@ h4.article__header {
   }
 
   .section-border .section__header {
-    flex: 0 0 315px;
+    flex-basis: 32%;
   }
 
   .header__theme-menu-list {
